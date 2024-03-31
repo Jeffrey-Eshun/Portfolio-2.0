@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Madimi One", sans-serif;
+
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        width: 100%;
+        height: auto;
+        background-color: #191919;
+        overflow: hidden;
+    }
+
+    header {
+        color: #fccb06;
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+
+    .Humburger {
+        color: white;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        margin-top: 30px;
+    }
+
+    .Humburger ul li {
+        margin-top: 15px;
+        list-style: none;
+    }
+
+    .Humburger .line {
+        width: 100%;
+        background-color: aqua;
+    }
+
+    .Humburger .icon {
+        position: absolute;
+        top: 25px;
+        right: 20px;
+    }
+
+    .Humburger ul li:hover {
+        color: #191919;
+        background-color: #fccb06;
+        display: flex;
+        align-items: center;
+        border: thin;
+        height: 35px;
+        width: 100px;
+        cursor: pointer;
+    }
+
+    .mobile-profile {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .mobile-profile h1 {
+        color: white;
+    }
+
+    .mobile-profile #jje {
+        color: #fccb06;
+    }
+
+    .mobile-profile h2 {
+        color: white;
+    }
+
+    .mobile-profile #t-text {
+        color: #fccb06;
+        position: relative;
+    }
+
+    .picture img {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    body {
+        width: 100%;
+        height: auto;
+        background-color: #191919;
+        overflow: hidden;
+    }
+
+    .container {
+        display: flex;
+        width: 100%;
+        /* overflow: hidden; */
+    }
+
+    header {
+        color: #fccb06;
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+
+    .nav-list {
+        width: 30%;
+        height: 100vh;
+        /* border: 2px solid black; */
+    }
+
+    .Humburger .icon {
+        display: none;
+    }
+
+    .Humburger ul {
+        margin-top: 20px;
+    }
+
+    .Humburger ul li {
+        margin-top: 70px;
+        position: relative;
+        left: 100px;
+        list-style: none;
+        color: white;
+    }
+
+    .Humburger ul li:hover {
+        background: #fccb06;
+    }
+
+    .Profile {
+        width: 30%;
+        height: 100vh;
+        /* border: 3px solid blue; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-profile {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        /* align-items: center; */
+        position: relative;
+        top: 250px;
+        left: 25px;
+    }
+
+    .mobile-profile h1 {
+        color: white;
+    }
+
+    .mobile-profile #jje {
+        color: #fccb06;
+    }
+
+    .mobile-profile h2 {
+        color: white;
+    }
+
+    .mobile-profile #t-text {
+        color: #fccb06;
+        position: relative;
+    }
+
+    .Photo {
+        width: 40%;
+        height: 100vh;
+        /* border: 3px solid red; */
+    }
+
+    .picture img {
+        width: 400px;
+        height: 550px;
+        /* position: relative;
+        left: 50px;
+        top: 20px; */
+        box-shadow: 1px 1px 20px #fccb06;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+        margin: 0 auto;
+    }
+}
+
+
+/* main screen */
+
+body {
+    background-color: #191919;
+}
+
+header {
+    color: #fccb06;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.container {
+    display: flex;
+    /* flex-direction: column; */
+    overflow: hidden;
+}
+
+.icon {
+    display: none;
+}
+
+.nav-list {
+    /* border: 3px solid black; */
+    width: 30%;
+    height: 100vh;
+}
+
+.Humburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.Humburger ul {
+    margin-top: 50px;
+}
+
+.Humburger ul li {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    transition: width 1s, height 1s, background-color 1s;
+
+}
+
+.Humburger ul li:hover {
+    background: #fccb06;
+    color: #191919;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.Profile {
+    /* border: 3px solid green; */
+    width: 30%;
+    height: 100vh;
+}
+
+.mobile-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+}
+
+.mobile-profile h1 {
+    color: white;
+}
+
+.mobile-profile #jje {
+    color: #fccb06;
+}
+
+.mobile-profile h2 {
+    color: white;
+}
+
+.mobile-profile #t-text {
+    color: #fccb06;
+    position: relative;
+}
+
+.Photo {
+    /* border: 3px solid red; */
+    width: 40%;
+    height: 100vh;
+}
+
+.picture img {
+    width: 400px;
+    height: 550px;
+    box-shadow: 1px 1px 20px #fccb06;
+
+}

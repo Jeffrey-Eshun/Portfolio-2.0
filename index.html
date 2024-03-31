@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <title>Portfolio v2.0</title>
+  </head>
+  <body>
+    <header>
+      <h1>Portfolio.</h1>
+    </header>
+
+    <div class="container">
+      
+        <div class="nav-list">
+          <div class="Humburger">
+            <div class="icon">
+              <i class="fa-solid fa-bars fa-2xl"></i>
+            </div>
+            <ul id="ul">
+              <li>
+                <i
+                  class="fa-sharp fa-solid fa-house-user"
+                  style="color: #fcfafa"
+                ></i>
+                &nbsp;Home
+              </li>
+              <li onclick="window.location.href='./Pages/About.html';" ;>
+                <i class="fa-solid fa-user" style="color: #fcfafa"></i> &nbsp;About
+              </li>
+              <li>
+                <i class="fa-solid fa-list" style="color: #fcfafa"></i>
+                &nbsp;Projects
+              </li>
+              <li>
+                <i class="fa-solid fa-file" style="color: #fcfafa"></i> &nbsp;Resume
+              </li>
+              <li>
+                <i class="fa-regular fa-address-card" style="color: #fcfafa"></i>
+                &nbsp;Contact
+              </li>
+              <li>
+                <i class="fa-solid fa-truck-fast" style="color: #fcfafa"></i>
+                &nbsp;Skills
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      <div class="Profile">
+        <div class="mobile-profile">
+          <!-- <h1>Hello</h1>
+          <h2>I'm Jeffrey Jojo Eshun</h2>
+          <h2>A Frontend Web-Developer and Photographer based in Ghana</h2> -->
+
+          <h1>Hello,</h1>
+          <h2>I'm <span id="jje">Jeffrey Jojo Eshun</span></h2>
+
+          <h2>
+            A <span id="t-text"></span> <br />
+            based in Ghana.
+          </h2>
+        </div>
+      </div>
+
+      <div class="Photo">
+        <div class="picture">
+          <img src="images/joe.jpg" alt="Joe's Picture" />
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
